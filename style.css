@@ -456,24 +456,24 @@ span{
         font-size: 20px;
         
     }
-    .iconbar a:hover{
+    .iconbar a{
         font-size: 25px;
         padding-bottom: 2px;
         transition-duration: 0.3s;
     }
-    #m1:hover{
+    #m1{
         color:#0866ff;
     }
-    #m2:hover{
+    #m2{
         color: #194ab4;
     }
-    #m3:hover{
+    #m3{
         color: #ff0000;
     }
-    #m4:hover{
+    #m4{
         color:rgb(29, 161, 242);
     }
-    #m5:hover{
+    #m5{
         color: #000000;
     }
     /*box*/
@@ -555,13 +555,13 @@ span{
         color: #ffffff;
         bottom: -20px;
         animation: fade 0.02;
-        display: none;
+        
     
     }
-    .prodbox1:hover> .bubtn{
+    .prodbox1 .bubtn{
         display: block;
     }
-    .prodbox1:hover{
+    .prodbox1{
         box-shadow: 2px 2px 20px rgba(3, 2, 37, 0.322);
         
     }
