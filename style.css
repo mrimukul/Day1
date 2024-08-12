@@ -304,7 +304,7 @@ span{
     margin-bottom: 10px;
 }
 /*mobile vew*/
-@media (max-width:720px) {
+@media (max-width:769px) {
     *{
         margin: 0;
         padding: 0;
@@ -456,24 +456,24 @@ span{
         font-size: 20px;
         
     }
-    .iconbar a{
+    .iconbar a:hover{
         font-size: 25px;
         padding-bottom: 2px;
         transition-duration: 0.3s;
     }
-    #m1{
+    #m1:hover{
         color:#0866ff;
     }
-    #m2{
+    #m2:hover{
         color: #194ab4;
     }
-    #m3{
+    #m3:hover{
         color: #ff0000;
     }
-    #m4{
+    #m4:hover{
         color:rgb(29, 161, 242);
     }
-    #m5{
+    #m5:hover{
         color: #000000;
     }
     /*box*/
@@ -555,13 +555,13 @@ span{
         color: #ffffff;
         bottom: -20px;
         animation: fade 0.02;
-        
+        display: none;
     
     }
-    .prodbox1 .bubtn{
+    .prodbox1:hover> .bubtn{
         display: block;
     }
-    .prodbox1{
+    .prodbox1:hover{
         box-shadow: 2px 2px 20px rgba(3, 2, 37, 0.322);
         
     }
@@ -579,15 +579,16 @@ span{
         width: 100%;
         height: 400px;
         bottom: 0;
-        position: relative;
+        display: flex;
         flex-direction: column;
         margin-left: 35px;
 
         
     }
     .abbox  img{
-        width: 100px;
-        display:none;
+        height: 100%;
+        width: 100%;
+        display: ab;
     }
     .abbox h1{
         font-weight: 700;
