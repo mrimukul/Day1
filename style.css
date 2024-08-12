@@ -588,7 +588,7 @@ span{
     .abbox  img{
         height: 100%;
         width: 100%;
-        display: ab;
+        display: none;
     }
     .abbox h1{
         font-weight: 700;
