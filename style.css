@@ -295,7 +295,7 @@ span{
     font-weight: 700;
     font-size: 3rem;
     margin: 0;
-    color: #33333;
+    color: #333333;
 }
 .abbox h4{
     font-weight: 400;
@@ -303,3 +303,308 @@ span{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/*mobile vew*/
+@media (max-width:769px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    a{
+        text-decoration: none;
+    }
+    .container{
+        width: 100%;
+        height:680px;
+    
+    }
+    .logo{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    
+    }
+    .logo a{
+        text-shadow: 2px 2px 30px  rgba(0,0,0,0.2);
+        color: #4904b8;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    .logo abbr{
+        list-style: none;
+        outline-style: none;
+    }
+    .srcara{
+        position:absolute;
+        left: 10px;
+        top: 50px;
+        width: 200px;
+        height: 30px;
+        background-color: #ffffff;
+        display:flex;
+        justify-content: left;
+        align-items: left;
+        padding-left: 10px;
+        box-sizing: border-box;
+        z-index: 1;
+        box-shadow: 4px 2px 30px rgba(160, 158, 245, 0.2);
+        border: 1px solid rgba(160, 158, 245, 0.1);
+        line-height: 0;
+    
+    }
+    .bar input{
+    
+        width: 160px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: #000000;
+        font-size: 17px;
+        padding: 0  2px;
+    }
+    .bar  input::placeholder{
+        font-family:sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size:16px;
+    }
+    .section1{
+        position: absolute;
+        
+        left: 15%;
+        top: 25%;
+    }
+    .section1 img{
+        height: 200px;
+    }
+    .sec1but{
+        position: absolute;
+        top: 55%;
+        left:40%;
+        margin-left: 120px;
+        
+    }
+    .sec1but h1, h2{
+        color: rgb(4, 4, 5);
+        font-family: sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 25px;
+        font-size: 2rem;
+        text-shadow: 6px 6px 10px rgba(4, 4, 5, 0.301);
+
+    }
+    .hi{
+        color: #ffffff;
+        display: none;
+    }
+    .se{
+        color: #ffffff;
+    }
+
+    
+   
+
+    
+    span{
+        color: #4904b8;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 2px;
+    }
+    .btn1{
+    
+        width: 100px;
+        height: 30px;
+       background-color: rgb(4, 4, 5);
+        border: transparent;
+        border-radius: 40px;
+        color: #ffffff;
+        font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+        font-family:  Calibri ;
+        font-size: 25px;
+        line-height: 0%;
+        box-shadow: 5px 5px 10px rgba(20, 15, 15, 0.658);
+        cursor: pointer;
+        outline: 0ch;
+        margin-top: 15px;
+        font-weight: bold;
+    
+    
+    }
+    .iconbar{
+        position: fixed;
+        left: 20px;
+        top: 30%;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        background-color: #4904b8;
+        height: 170px;
+        width: 35px;
+        box-shadow: 3px 3px 10px rgba(4, 4, 5, 0.753);
+    }
+    .iconbar a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 7px ;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        
+    }
+    .iconbar a:hover{
+        font-size: 25px;
+        padding-bottom: 2px;
+        transition-duration: 0.3s;
+    }
+    #m1:hover{
+        color:#0866ff;
+    }
+    #m2:hover{
+        color: #194ab4;
+    }
+    #m3:hover{
+        color: #ff0000;
+    }
+    #m4:hover{
+        color:rgb(29, 161, 242);
+    }
+    #m5:hover{
+        color: #000000;
+    }
+    /*box*/
+    .product{
+        background-color: #ffffff;
+        width: 80%;
+        margin: 30px auto;
+        box-shadow: 3px 3px 30px rgba(5, 5, 8, 0.411);
+        display: flex;
+        position:relative;
+        padding: 40px 20px ;
+        flex-direction: column;
+        margin-top: -60px ;
+        align-items: center;
+        justify-content: center;
+        background-size: 1000px;
+        border-radius: 10px;
+    
+    
+    
+    }
+    .heading  h3{
+        margin: 20px;
+        font-size: 2rem;
+        text-shadow: 3px 4px  15px rgba(4, 4, 5, 0.616) ;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-align: center;
+    
+    }
+    .pdb{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        width:100%;
+    
+    
+    }
+    .prodbox1{
+        width: 250px;
+        height: 330px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column ;
+        border-radius: 8px;
+        align-items: center;
+        position: relative ;  
+        margin: 10px 30px;
+      
+        
+    
+    }
+    .prodbox1 img{
+      
+        height: 180px;
+    
+    }
+    .prodbox1 p{ color: #000000;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    
+    }
+    .prodbox1 a{
+    
+        color: rgb(255, 0, 0);
+        font-size: 1rem;
+    }
+    .prodbox1 .bubtn{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: #4904b8;
+        padding: 8px;
+        border-radius: 20px 0px ;
+        color: #ffffff;
+        bottom: -20px;
+        animation: fade 0.02;
+        display: none;
+    
+    }
+    .prodbox1:hover> .bubtn{
+        display: block;
+    }
+    .prodbox1:hover{
+        box-shadow: 2px 2px 20px rgba(3, 2, 37, 0.322);
+        
+    }
+    /* about*/
+    .about{
+        display: flex;
+        width: 85%;
+        margin: 50px auto;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+    
+    }
+    .abbox{
+        width: 100%;
+        height: 400px;
+        bottom: 0;
+        position: relative;
+        flex-direction: column;
+        margin-left: 35px;
+
+        
+    }
+    .abbox  img{
+        width: 100px;
+        display:none;
+    }
+    .abbox h1{
+        font-weight: 700;
+        font-size: 3rem;
+        margin: 0;
+        color: #33333;
+    }
+    .abbox h4{
+        font-weight: 400;
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        display: none;
+
+}
+}
+
