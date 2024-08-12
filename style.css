@@ -304,7 +304,7 @@ span{
     margin-bottom: 10px;
 }
 /*mobile vew*/
-@media (max-width:769px) {
+@media (max-width:720px) {
     *{
         margin: 0;
         padding: 0;
