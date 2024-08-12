@@ -577,7 +577,7 @@ span{
     }
     .abbox{
         width: 100%;
-        height: 400px;
+        height: 400px; 
         bottom: 0;
         display: flex;
         flex-direction: column;
