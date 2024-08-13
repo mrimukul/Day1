@@ -444,6 +444,7 @@ span{
         height: 170px;
         width: 35px;
         box-shadow: 3px 3px 10px rgba(4, 4, 5, 0.753);
+        z-index:+100;
     }
     .iconbar a{
         display: flex;
